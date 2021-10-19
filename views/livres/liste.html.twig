@@ -1,0 +1,57 @@
+{% extends "base.html.twig" %}
+
+{% block titre %} Page listant les livres{% endblock %}
+{% block contenu %} 
+   <table class="table text-center monTableau" id="tableauLivres">
+        <thead>
+            <tr class="table-dark">
+                <th>Titre</th>
+                <th>Auteur</th>
+                <th>Date</th>
+                  <th>Description</th>
+                    <th>Genre</th>
+                <th colspan="2">Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for livre in liste %}
+                <tr>
+                    <td><a href="/livres/{{livre._id}}">{{livre.titre}}</a></td>
+                    <td>{{livre.auteur}}</td>
+                    <td>{{livre.date}}</td>
+                    <td>{{livre.description}}</td>
+                    <td>{{livre.genre}}</td>
+
+                    <td><a href="" class="btn btn-info">emprunter</a></td>
+                    <td><a href="" class="btn btn-success">rendre</a></td>
+                </tr>
+            {% endfor %}
+            
+        </tbody>
+    </table>
+    <a href="" class="btn btn-success d-block">Ajouter</a>
+{% endblock %}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

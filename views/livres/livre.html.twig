@@ -1,0 +1,84 @@
+{% extends "base.html.twig" %}
+
+{% block titre %} {{livre.titre}}{% endblock %}
+{% block contenu %} 
+    <div class="row m-2">
+        <div class="col-6">
+            <h2>Informations : </h2>
+            <div>Titre : {{livre.titre}}</div>
+            <div>Auteur : {{livre.auteur}}</div>
+            <div>Date  : {{livre.date}}</div>
+            <div>Description : {{livre.description}}</div>
+            <div>Genre : {{livre.genre}}</div>
+            <img src="https://picsum.photos/200/200">
+        </div>
+        <div class="col-6">
+            <h2>Résumé : </h2>
+            <div>
+            {{livre.description}}
+            </div>
+            
+            <td><a href="" class="btn btn-info">emprunter</a></td>
+            <td><a href="" class="btn btn-success">rendre</a></td>
+        </div>
+    </div>
+{% endblock %}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{#
+{% extends "base.html.twig" %}
+
+
+{% block title %} {{nom}} {% endblock %}
+
+{% block contenu %} 
+        <div class="row m-2">
+            <div class="col-6">
+                <h2>Informations :</h2>
+                <div>Auteur : </div>
+                <div>Date : </div>
+                <div>Genre : </div>
+                <img src="https://picsum.photos/200/200">
+            </div>
+
+             <div class="col-6">
+                <h2> Résumé : <h2>
+                <div>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Donec gravida tincidunt euismod. Mauris lacus mi, vulputate eget sem
+vitae, imperdiet consectetur urna. In ante sapien, mattis eu nisi ut,
+malesuada fringilla massa. Ut pulvinar, quam quis interdum convallis,
+sem dolor ullamcorper lacus, vel tristique felis nunc in risus.
+Duis ex dolor, commodo vitae metus ac, egestas tincidunt turpis.
+Morbi leo quam, ornare molestie pellentesque interdum, euismod ut magna.
+Aliquam tincidunt orci vulputate interdum varius.
+
+                </div>
+                <td><a href=""class="btn btn-primary">emprunter</a></td>
+                <td><a href=""class="btn btn-info">rendre</a></td>
+            </div>
+        </div>
+{% endblock %}
+#}
