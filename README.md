@@ -7,11 +7,21 @@ Pour le lancer :
 Via visual Studio Code, lancer le server par la commande : npm start (fonction nodemon créé dans le package.json)
 Aller sur votre navigateur internet et aller sur : localhost:3000 (le site est en local)
 l'onglet accueil est prévu pour la connexion de l'utilisateur
-![image](https://user-images.githubusercontent.com/72383834/138316591-ce452e5b-4beb-4fda-bc7e-ff7f70f2c72b.png)
+
+![image](https://user-images.githubusercontent.com/72383834/138316918-4326a14d-43d0-4207-956b-e5a2bf09eace.png)
+
+
+
 
 l'onglet livre permet de visualiser la liste des livres relié a la base de données
-![image](https://user-images.githubusercontent.com/72383834/138316653-3f914cbc-f0e0-4cfe-9ae5-4b3f9d097bc8.png)
+
+
+![image](https://user-images.githubusercontent.com/72383834/138317001-f4e1215a-7066-46c5-a3fe-4c7c8d8544ab.png)
+
 
 en cliquant sur un livre, nous avons un bref résumé de ce dernier, l'auteur, la date de parution et un visuel
-![image](https://user-images.githubusercontent.com/72383834/138316685-31618904-d58a-4561-9462-8516ec879aae.png)
+
+
+![image](https://user-images.githubusercontent.com/72383834/138317052-4861dc41-0560-48fb-99da-4968997fd0a0.png)
+
 
